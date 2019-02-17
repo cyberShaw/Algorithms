@@ -4,4 +4,4 @@ Algorithms
 
 #### Dynamic Programming
 
-+ [Longest Common Subsequence](../blob/master/DynamicProgramming/)
++ [Longest Common Subsequence](https://github.com/thewhitewolf17/Algorithms/tree/master/DynamicProgramming/Longest%20Common%20Subsequence)
