@@ -3,7 +3,7 @@ from heapq import *
 r, thm = int(0), int(0)
 print("Enter the Number of Requests : ") #Number of I/O Requets
 req = int(input())
-print("Enter the Initial Head Position : ") #Initial position of Head
+print("Enter the Initial Head Position : ") #Initial position of Disk Head
 hp = int(input())
 position = hp
 print("Enter the Seek Rate : ")

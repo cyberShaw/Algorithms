@@ -12,33 +12,34 @@ start = min(arr)
 end = max(arr) #Start and End of Head Positions
 print(hp, end='')
 if(hp<100):
-    for i in range(pos, start-1, -1):
+    for i in range(pos, start-1, -1): #Iterates the movement from initial to start of disk
         if i in arr:
             thm+= abs(pos-i)
             pos = i
             print(" -> ",i, end='')
             arr.remove(i)
     thm+= abs(pos-start)
-    pos = end
+    pos = end #Moves to end without scanning
     print(" -> ", start, end='')
     print(" -> ", end, end='')
-    for i in range(end, hp+1, -1): #Scans back to start
+    for i in range(end, hp+1, -1): #Scans back to initial head position
         if i in arr:
             thm+= abs(pos-i)
             pos = i
             print(" -> ", i, end='')
             arr.remove(i)
 else:
-    for i in range(pos, end+1):
+    for i in range(pos, end+1): #Iterates the movement from initial to end of disk
         if i in arr: 
             thm+= abs(pos-i)
             pos = i
             print(" -> ", i, end='')
             arr.remove(i)
     thm+= abs(pos-end)
-    pos=end
+    pos = start #moves to start without scanning
     print(" -> ", end, end='')
-    for i in range(start,hp+1):
+    print(" -> ", start, end='')
+    for i in range(start,hp+1): #Scans back to initial head position
         if i in arr:
             time+=abs(pos-i)
             pos=i
