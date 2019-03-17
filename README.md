@@ -4,5 +4,14 @@ Algorithms
 
 #### Dynamic Programming
 
-+ [Longest Common Subsequence](https://github.com/thewhitewolf17/Algorithms/tree/master/DynamicProgramming/Longest%20Common%20Subsequence)
-+ [0-1 Knapsack](https://github.com/thewhitewolf17/Algorithms/blob/master/DynamicProgramming/0-1_Knapsack.py)
++ [Longest Common Subsequence](DynamicProgramming/Longest%20Common%20Subsequence/)
++ [0-1 Knapsack](DynamicProgramming/0-1_Knapsack.py)
+
+#### Disk Scheduling
+
++ [First Come First Serve](DiskScheduling/fcfs.py)
++ [Shortest Seek Time First](DiskScheduling/sstf.py)
++ [Scan](DiskScheduling/scan.py)
++ [Circular Scan](DiskScheduling/cscan.py)
++ [Look](DiskScheduling/look.py)
++ [Circular Look](DiskScheduling/clook.py)
