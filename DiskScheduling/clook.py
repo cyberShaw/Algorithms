@@ -11,7 +11,7 @@ arr = [ int(input()) for i in range(req)]
 start = min(arr)
 end = max(arr) #Start and End of Head Positions
 print(hp, end='')
-if(hp<100):
+if((abs(hp-start))<(abs(hp-end))):
     for i in range(pos, start-1, -1): #Iterates the movement from initial to start of disk
         if i in arr:
             thm+= abs(pos-i)
