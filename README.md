@@ -1,6 +1,6 @@
 Algorithms
 ===== 
-### Implementation of Various Problems in Python and/or C++
+## Implementation of Various Problems in Python and/or C++
 
 #### Dynamic Programming
 
@@ -15,3 +15,13 @@ Algorithms
 + [Circular Scan](DiskScheduling/cscan.py)
 + [Look](DiskScheduling/look.py)
 + [Circular Look](DiskScheduling/clook.py)
+
+#### Searching 
+
++ [Binary Search](binarySearch.py)
+
+## Data Structures
+
+#### Stack
+
++ [Stack using Arrays](DataStructures/Stack/arrayStack.py)
