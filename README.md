@@ -1,5 +1,8 @@
 Algorithms
 ===== 
+## LeetCode
+[This section](LeetCode/) contains various solutions for LeetCode problems
+
 ## Implementation of Various Problems in Python and/or C++
 
 #### Dynamic Programming
