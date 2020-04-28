@@ -32,8 +32,3 @@ class Solution:
             l3.next = ListNode(lt)
             l3 = l3.next
         return head.next
-        
-            
-            
-            
-        
