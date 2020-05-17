@@ -3,6 +3,9 @@ Algorithms
 ## LeetCode
 [This section](LeetCode/) contains various solutions for LeetCode problems
 
+## HackerRank
+[This section](HackerRank/) contains various solutions for HackerRank problems
+
 ## Implementation of Various Problems in Python and/or C++
 
 #### Dynamic Programming
