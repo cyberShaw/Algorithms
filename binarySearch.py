@@ -9,7 +9,7 @@ Original file is located at
 
 def binarySearch(A,l,r,x):
   if (r >= l):
-    mid = int((l + (r-1))/2)
+    mid = int((l + (r-l))/2)
     if (A[mid] == x):
       return mid
     elif (A[mid] > x):
